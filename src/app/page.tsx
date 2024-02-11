@@ -16,7 +16,7 @@ export default function Home() {
         <Image src={Profile} alt="Avatar" />
         <div className={styles['me-right']}>
             <span className={styles['name']}>Hello, I&apos;m Samuel Davis</span>
-          <span className={styles['description']}>I&apos;m a software engineer, or well a web developer too :3</span>
+          <span className={styles['description']}>I&apos;m a Software Engineer & Web Developer.</span>
         </div>
         <div className={styles['socials']}>
           <a href='https://github.com/NotBruce' className={styles['social']}>
