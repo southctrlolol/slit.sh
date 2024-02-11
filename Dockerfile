@@ -18,8 +18,5 @@ COPY . .
 # Build the Next.js website
 RUN npm run build
 
-# Expose the port on which the application will run
-EXPOSE 3555
-
 # Start the application
 CMD ["npm", "start", '-p', '3555']
