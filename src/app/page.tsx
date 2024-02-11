@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import styles from "./page.module.css";
 import Profile from '../../public/profile.jpg'
 import RaidHub from '../../public/RaidHub.png'
@@ -58,7 +58,7 @@ export default function Home() {
   );
 }
 
-const Project = ({ title, description, image, link }: { title: string, description: string, image: string, link: string }) => {
+const Project = ({ title, description, image, link }: { title: string, description: string, image: StaticImageData, link: string }) => {
   return (
     <a className={styles['project']} href={link} >
       <Image src={image} alt={title}/>
