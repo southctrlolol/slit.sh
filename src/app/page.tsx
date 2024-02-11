@@ -15,8 +15,8 @@ export default function Home() {
       <div className={styles['me']}>
         <Image src={Profile} alt="Avatar" />
         <div className={styles['me-right']}>
-          <span className={styles['name']}>Hello, I'm Samuel Davis</span>
-          <span className={styles['description']}>I'm a software engineer, or well a web developer too :3</span>
+            <span className={styles['name']}>Hello, I&apos;m Samuel Davis</span>
+          <span className={styles['description']}>I&apos;m a software engineer, or well a web developer too :3</span>
         </div>
         <div className={styles['socials']}>
           <a href='https://github.com/NotBruce' className={styles['social']}>
@@ -58,7 +58,7 @@ export default function Home() {
   );
 }
 
-const Project = ({ title, description, image, link }) => {
+const Project = ({ title, description, image, link }: { title: string, description: string, image: string, link: string }) => {
   return (
     <a className={styles['project']} href={link} >
       <Image src={image} alt={title}/>
