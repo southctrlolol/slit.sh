@@ -13,8 +13,8 @@ export default function Home() {
       <div className={styles['me']}>
         <Image src={Profile} alt="Avatar" />
         <div className={styles['me-right']}>
-            <span className={styles['name']}>Hello, I&apos;m Samuel Davis</span>
-          <span className={styles['description']}>I&apos;m a Software Engineer & Web Developer.</span>
+            <span className={styles['name']}>Hello, I&apos;m sin</span>
+          <span className={styles['description']}>I&apos;m a bot developer.</span>
         </div>
         <div className={styles['socials']}>
           <a href='https://github.com/evincement' className={styles['social']}>
