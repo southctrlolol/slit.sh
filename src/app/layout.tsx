@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Background from '../../public/Background.png';
+import Background from '../../public/background.png';
 import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Samuel Davis | Portfolio",
-  description: "The portfolio of Samuel Davis, a software engineer and web developer",
+  title: "sin",
+  description: "",
 };
 
 export default function RootLayout({
