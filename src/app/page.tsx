@@ -23,7 +23,6 @@ export default function Home() {
             <span className={'social-name'}>GitHub</span>
           </a>
       </div>
-    </div>
   );
 }
 
@@ -31,7 +30,4 @@ const Project = ({ title, description, image, link }: { title: string, descripti
   return (
     <a className={styles['project']} href={link} >
       <Image src={image} alt={title}/>
-      </div>
-    </a>
-  );
 }
