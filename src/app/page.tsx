@@ -31,40 +31,11 @@ export default function Home() {
             <span className={'social-name'}>Email</span>
           </a>
         </div>
-      </div>
-      <span className={styles['projects-title']}>Projects</span>
-      <div className={styles['projects']}>
-        <Project
-          title="dev"
-          description="place holder"
-          image={Profile}
-          link='https://resent.dev'
-        />
-        <Project
-          title="grief"
-          description="Versatile Discord Bot For Moderation, Social Commands, and More!"
-          image={Grief}
-          link='https://grief.cloud'
-        />
-        <Project
-          title="yor"
-          description="a fun active community for meeting new friends"
-          image={Yor}
-          link='https://discord.gg/yor'
-        />
-      </div>
-    </div>
-  );
-}
 
 const Project = ({ title, description, image, link }: { title: string, description: string, image: StaticImageData, link: string }) => {
   return (
     <a className={styles['project']} href={link} >
       <Image src={image} alt={title}/>
-      <div className={styles['project-info']}>
-        <span className={styles['project-title']}>{title}</span>
-        <span className={styles['project-description']}>{description}</span>
-      </div>
     </a>
   );
 }
