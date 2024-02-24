@@ -36,7 +36,7 @@ export default function Home() {
       <span className={styles['projects-title']}>Projects</span>
       <div className={styles['projects']}>
         <Project
-          title="dev"
+          title="resent"
           description="Versatile Discord Bot For Moderation, Social Commands, and More."
           image={Resent}
           link='https://resent.dev'
