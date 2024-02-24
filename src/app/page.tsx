@@ -22,15 +22,8 @@ export default function Home() {
             <FaGithub className={styles['social-icon']} />
             <span className={'social-name'}>GitHub</span>
           </a>
-          <a href='https://discord.com/users/334593049319571456' className={styles['social']}>
-            <FaDiscord className={styles['social-icon']} />
-            <span className={'social-name'}>Discord</span>
-          </a>
-          <a href='mailto:contact@slit.sh' className={styles['social']}>
-            <MdEmail className={styles['social-icon']} />
-            <span className={'social-name'}>Email</span>
-          </a>
-        </div>
+      </div>
+    </div>
   );
 }
 
