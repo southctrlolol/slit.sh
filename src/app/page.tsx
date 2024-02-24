@@ -29,6 +29,8 @@ export default function Home() {
           <a href='mailto:contact@slit.sh' className={styles['social']}>
             <MdEmail className={styles['social-icon']} />
             <span className={'social-name'}>Email</span>
+          </a>
+        </div>
   );
 }
 
@@ -36,6 +38,7 @@ const Project = ({ title, description, image, link }: { title: string, descripti
   return (
     <a className={styles['project']} href={link} >
       <Image src={image} alt={title}/>
+      </div>
     </a>
   );
 }
