@@ -31,6 +31,7 @@ export default function Home() {
             <MdEmail className={styles['social-icon']} />
             <span className={'social-name'}>Email</span>
           </a>
+        </div>
       </div>
       <span className={styles['projects-title']}>Projects</span>
       <div className={styles['projects']}>
