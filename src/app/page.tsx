@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import styles from "./page.module.css";
 import Profile from '../../public/profile.png'
 import Grief from '../../public/grief.png'
-import Yor from '../../public/yor.png'
+import Cemetery from '../../public/cemetery.gif'
 import { FaGithub } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -48,10 +48,10 @@ export default function Home() {
           link='https://grief.cloud'
         />
         <Project
-          title="yor"
+          title="cemetery"
           description="a fun active community for meeting new friends"
           image={Yor}
-          link='https://discord.gg/yor'
+          link='https://discord.gg/cemetery'
         />
       </div>
     </div>
