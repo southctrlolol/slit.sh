@@ -30,3 +30,10 @@ export default function Home() {
           <a href='mailto:contact@slit.sh' className={styles['social']}>
             <MdEmail className={styles['social-icon']} />
             <span className={'social-name'}>Email</span>
+            </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  );
+}
