@@ -50,7 +50,7 @@ export default function Home() {
         <Project
           title="cemetery"
           description="a fun active community for meeting new friends"
-          image={Yor}
+          image={cemetery}
           link='https://discord.gg/cemetery'
         />
       </div>
