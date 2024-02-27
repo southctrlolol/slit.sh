@@ -32,8 +32,5 @@ export default function Home() {
             <span className={'social-name'}>Email</span>
             </a>
         </div>
-      </div>
-      </div>
-    </div>
-  );
+ );
 }
