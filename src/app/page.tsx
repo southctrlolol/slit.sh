@@ -33,8 +33,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <span className={styles['projects-title']}>Projects</span>
-      <div className={styles['']}>
+      <div className={styles['projects']}>
         <Project
           title="grief"
           description="versatile Discord Bot For moderation, social commands, and more"
