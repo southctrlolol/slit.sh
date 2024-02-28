@@ -33,26 +33,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <span className={styles['projects-title']}>Projects</span>
-      <div className={styles['projects']}>
-        <Project
-          title="grief"
-          description="versatile Discord Bot For moderation, social commands, and more"
-          image={Grief}
-          link='https://grief.cloud'
-        />
-        <Project
-          title="resent"
-          description="versatile Discord Bot For moderation, social commands, and more"
-          image={Resent}
-          link='https://resent.dev'
-        />
-        <Project
-          title="cemetery"
-          description="an active friendly community server"
-          image={Cemetery}
-          link='https://discord.gg/cemetery'
-        />
       </div>
     </div>
   );
