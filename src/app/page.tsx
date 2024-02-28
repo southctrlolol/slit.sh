@@ -15,20 +15,45 @@ export default function Home() {
       <div className={styles['me']}>
         <Image src={Profile} alt="Avatar" />
         <div className={styles['me-right']}>
-            <span className={styles['name']}>Hello, I&apos;m Samuel Davis</span>
-          <span className={styles['description']}>I&apos;m a Software Engineer & Web Developer.</span>
+            <span className={styles['name']}>Hello, I&apos;m sin</span>
+          <span className={styles['description']}>I&apos;m a bot developer.</span>
         </div>
         <div className={styles['socials']}>
-          <a href='https://github.com/NotBruce' className={styles['social']}>
+          <a href='https://github.com/evincement' className={styles['social']}>
             <FaGithub className={styles['social-icon']} />
             <span className={'social-name'}>GitHub</span>
           </a>
-          <a href='https://discord.com/users/771891131499675668' className={styles['social']}>
+          <a href='https://discord.com/users/959292943657746464' className={styles['social']}>
             <FaDiscord className={styles['social-icon']} />
             <span className={'social-name'}>Discord</span>
           </a>
-          <a href='mailto:me@notbruce.dev' className={styles['social']}>
+          <a href='mailto:contact@slit.sh' className={styles['social']}>
             <MdEmail className={styles['social-icon']} />
             <span className={'social-name'}>Email</span>
           </a>
         </div>
+      </div>
+      <span className={styles['projects-title']}>Projects</span>
+      <div className={styles['projects']}>
+        <Project
+          title="grief"
+          description="versatile Discord Bot For moderation, social commands, and more"
+          image={Grief}
+          link='https://grief.cloud'
+        />
+        <Project
+          title="resent"
+          description="versatile Discord Bot For moderation, social commands, and more"
+          image={Resent}
+          link='https://resent.dev'
+        />
+        <Project
+          title="cemetery"
+          description="an active friendly community server"
+          image={Cemetery}
+          link='https://discord.gg/cemetery'
+        />
+      </div>
+    </div>
+  );
+}
