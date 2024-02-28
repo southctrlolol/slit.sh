@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
       <span className={styles['projects-title']}>Projects</span>
-      <div className={styles['projects']}>
+      <div className={styles['']}>
         <Project
           title="grief"
           description="versatile Discord Bot For moderation, social commands, and more"
