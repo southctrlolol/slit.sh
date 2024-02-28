@@ -33,7 +33,39 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <span className={styles['projects-title']}>Projects</span>
+      <div className={styles['projects']}>
+        <Project
+          title="grief"
+          description="versatile Discord Bot For moderation, social commands, and more"
+          image={Grief}
+          link='https://grief.cloud'
+        />
+        <Project
+          title="resent"
+          description="versatile Discord Bot For moderation, social commands, and more"
+          image={Resent}
+          link='https://resent.dev'
+        />
+        <Project
+          title="cemetery"
+          description="an active friendly community server"
+          image={Cemetery}
+          link='https://discord.gg/cemetery'
+        />
       </div>
     </div>
+  );
+}
+
+const Project = ({ title, description, image, link }: { title: string, description: string, image: StaticImageData, link: string }) => {
+  return (
+    <a className={styles['project']} href={link} >
+      <Image src={image} alt={title}/>
+      <div className={styles['project-info']}>
+        <span className={styles['project-title']}>{title}</span>
+        <span className={styles['project-description']}>{description}</span>
+      </div>
+    </a>
   );
 }
