@@ -15,23 +15,20 @@ export default function Home() {
       <div className={styles['me']}>
         <Image src={Profile} alt="Avatar" />
         <div className={styles['me-right']}>
-            <span className={styles['name']}>Hello, I&apos;m sin</span>
-          <span className={styles['description']}>I&apos;m a bot developer.</span>
+            <span className={styles['name']}>Hello, I&apos;m Samuel Davis</span>
+          <span className={styles['description']}>I&apos;m a Software Engineer & Web Developer.</span>
         </div>
         <div className={styles['socials']}>
-          <a href='https://github.com/evincement' className={styles['social']}>
+          <a href='https://github.com/NotBruce' className={styles['social']}>
             <FaGithub className={styles['social-icon']} />
             <span className={'social-name'}>GitHub</span>
           </a>
-          <a href='https://discord.com/users/334593049319571456' className={styles['social']}>
+          <a href='https://discord.com/users/771891131499675668' className={styles['social']}>
             <FaDiscord className={styles['social-icon']} />
             <span className={'social-name'}>Discord</span>
           </a>
-          <a href='mailto:contact@slit.sh' className={styles['social']}>
+          <a href='mailto:me@notbruce.dev' className={styles['social']}>
             <MdEmail className={styles['social-icon']} />
             <span className={'social-name'}>Email</span>
-            </a>
+          </a>
         </div>
-      </div>
-    );
-  }
