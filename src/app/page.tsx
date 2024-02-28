@@ -33,6 +33,7 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <span className={styles['projects-title']}>Projects</span>
       <div className={styles['projects']}>
         <Project
           title="grief"
