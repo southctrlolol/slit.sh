@@ -23,7 +23,7 @@ export default function Home() {
             <FaGithub className={styles['social-icon']} />
             <span className={'social-name'}>GitHub</span>
           </a>
-          <a href='https://discord.com/users/959292943657746464' className={styles['social']}>
+          <a href='https://discord.com/users/1252001166703853588' className={styles['social']}>
             <FaDiscord className={styles['social-icon']} />
             <span className={'social-name'}>Discord</span>
           </a>
@@ -36,22 +36,22 @@ export default function Home() {
       <span className={styles['projects-title']}>Projects</span>
       <div className={styles['projects']}>
         <Project
-          title="grief"
+          title="Chippy"
           description="versatile Discord Bot For moderation, social commands, and more"
           image={Grief}
           link='https://grief.cloud'
         />
         <Project
-          title="resent"
+          title=""
           description="versatile Discord Bot For moderation, social commands, and more"
           image={Resent}
           link='https://resent.dev'
         />
         <Project
-          title="cemetery"
+          title="terrify"
           description="an active friendly community server"
           image={Cemetery}
-          link='https://discord.gg/cemetery'
+          link='https://discord.gg/terrify'
         />
       </div>
     </div>
