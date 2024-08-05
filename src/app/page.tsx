@@ -11,7 +11,7 @@ export default function Home() {
       <div className={styles.me}>
         <Image src={Chippy} alt="Avatar" />
         <div className={styles['me-right']}>
-          <span className={styles.name}>Hello, I'm sin</span>
+          <span className={styles.name}>Hello, I'm ctrl</span>
           <span className={styles.description}>I'm a bot developer.</span>
         </div>
         <div className={styles.socials}>
