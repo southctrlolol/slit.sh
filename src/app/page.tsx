@@ -1,7 +1,7 @@
 import Image, { StaticImageData } from "next/image";
 import styles from "./page.module.css";
-import Profile from '../../public/profile.png'
-import Grief from '../../public/grief.png'
+import Chippy(2) from '../../public/Chippy(2).png'
+import Terrify from '../../public/terrify.png'
 import Cemetery from '../../public/cemetery.gif'
 import { FaGithub } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
