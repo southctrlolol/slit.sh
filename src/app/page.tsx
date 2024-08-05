@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 import styles from "./page.module.css";
-import Chippy from '../../public/Chippy.png'
+import Chippy from '../../public/chippy.png'
 import { FaGithub } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
