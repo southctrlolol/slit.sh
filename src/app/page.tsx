@@ -6,7 +6,7 @@ import Cemetery from '../../public/cemetery.gif'
 import { FaGithub } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import Resent from '../../public/resent.png'
+import Chippy from '../../public/Chippy.png'
 
 
 export default function Home() {
@@ -39,13 +39,13 @@ export default function Home() {
           title="Chippy"
           description="versatile Discord Bot For moderation, social commands, and more"
           image={Grief}
-          link='https://grief.cloud'
+          link='https://discord.gg/CNSYxykkVg'
         />
         <Project
-          title=""
+          title="Chippy(2)"
           description="versatile Discord Bot For moderation, social commands, and more"
           image={Resent}
-          link='https://resent.dev'
+          link='https://discord.gg/CNSYxykkVg'
         />
         <Project
           title="terrify"
